@@ -1,6 +1,6 @@
-import { TrendChart } from "@/components";
+import { PipelineTrend } from "@/components";
 
 const Dashboard = () => {
-  return <TrendChart />
+  return <PipelineTrend />
 }
 export default Dashboard

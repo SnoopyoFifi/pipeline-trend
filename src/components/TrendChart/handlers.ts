@@ -5,7 +5,7 @@ import { MONTH_ORDER } from "./constants";
 import type { ItemType, TransfromDataType } from "./types";
 
 // 根据节点值返回对应颜色
-function getPointColor(val: number, maxVal: number): string {
+const getPointColor = (val: number, maxVal: number): string => {
   if (val === maxVal) return '#4CAF50';
   return val > 300000 ? '#FFA726' : '#F44336';
 }
@@ -189,6 +189,7 @@ const getSeriesOption = (values: number[]): echarts.SeriesOption[] => {
     symbol: 'circle',
     symbolSize: 16,
     itemStyle: {
+      opacity: 1,
       color: (p: any) => getPointColor(p.value[1], maxVal),
       borderColor: '#fff',
       borderWidth: 0,
@@ -225,7 +226,7 @@ const getSeriesOption = (values: number[]): echarts.SeriesOption[] => {
 
 const getBaseOption = ({ months, values, years, fullYears}: TransfromDataType) => ({
   yAxis: { type: 'value', show: false },
-  grid: { top: 40, left: 10, right: 10, bottom: 80, containLabel: true },
+  grid: { top: 40, left: -60, right: 10, bottom: 80, containLabel: true },
   xAxis: getXAxisOption(months, years),
   tooltip: getTooltipOption(months, values, fullYears),
   series: getSeriesOption(values),
