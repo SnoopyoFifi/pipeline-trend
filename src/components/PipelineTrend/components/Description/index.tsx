@@ -15,7 +15,7 @@ const Description = () => (
     <Title className={styles.title} level={5}>Next best actions:</Title>
     <List className={styles.list}
       dataSource={data}
-      renderItem={item => <Item className={styles.item}><div className={styles.dot}/> <Text>{item}</Text></Item>}
+      renderItem={item => <Item className={styles.item}><div className={styles.dot}/> <Text className={styles.text}>{item}</Text></Item>}
     />
   </Card>
 );
