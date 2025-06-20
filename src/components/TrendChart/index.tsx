@@ -26,8 +26,6 @@ const TrendChart: React.FC = () => {
   const renderData = transformData(mockData)
   const { chartRef} =  usePipelineOption(renderData)
 
-  console.log("renderData: ", renderData)
-  
   return (
     <div style={{ width: '100%', height: 420 }}>
       <div ref={chartRef} style={{ width: '100%', height: '100%' }} />
