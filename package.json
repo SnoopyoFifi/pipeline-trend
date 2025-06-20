@@ -20,7 +20,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://SnoopyoFifi.github.io/pipeline-trend",
+  "homepage": "https://snoopyofifi.github.io/pipeline-trend",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
