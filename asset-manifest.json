@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pipeline-trend/static/css/main.240e03e2.css",
+    "main.js": "/pipeline-trend/static/js/main.e2dcb5d5.js",
+    "static/js/453.d9b16a7e.chunk.js": "/pipeline-trend/static/js/453.d9b16a7e.chunk.js",
+    "index.html": "/pipeline-trend/index.html",
+    "main.240e03e2.css.map": "/pipeline-trend/static/css/main.240e03e2.css.map",
+    "main.e2dcb5d5.js.map": "/pipeline-trend/static/js/main.e2dcb5d5.js.map",
+    "453.d9b16a7e.chunk.js.map": "/pipeline-trend/static/js/453.d9b16a7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.240e03e2.css",
+    "static/js/main.e2dcb5d5.js"
+  ]
+}
